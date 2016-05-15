@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background = "#ff8857a7">
+
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:textAppearance = "@android:style/TextAppearance.Holo.Large.Inverse"
+        android:text = "Want a contact number?"
+        android:id = "@+id/textView"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+        android:layout_margin = "16dp"
+        />
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:textAppearance = "@android:style/TextAppearance.Holo.Large.Inverse"
+        android:text = "Contact us at +603 8317 8888"
+        android:id = "@+id/textView8"
+        android:layout_below = "@+id/textView"
+        android:layout_centerHorizontal = "true"
+        android:layout_margin = "16dp"/>
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:textAppearance = "@android:style/TextAppearance.Holo.Large.Inverse"
+        android:text = "Working Hours:9AM - 6PM (Monday - Friday) "
+        android:id = "@+id/textView9"
+        android:layout_below = "@+id/textView8"
+        android:layout_centerHorizontal = "true"
+        android:gravity = "center_horizontal"
+        android:layout_marginBottom = "0dp"
+        android:layout_marginLeft = "16dp"
+        android:layout_marginTop = "16dp"
+        android:layout_marginRight = "16dp"/>
+    <TextView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:textAppearance = "@android:style/TextAppearance.Holo.Large.Inverse"
+        android:text = "You can email us by pressing the send email button below"
+        android:id = "@+id/textView10"
+        android:gravity = "center_horizontal"
+        android:layout_marginTop = "33dp"
+        android:layout_below = "@+id/button_callClub"
+        android:layout_centerHorizontal = "true"/>
+    <Button
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Call Club"
+        android:id = "@+id/button_callClub"
+        android:onClick="buttonCallClub"
+        android:layout_below = "@+id/textView9"
+        android:layout_centerHorizontal = "true"
+        android:layout_marginTop = "32dp"/>
+    <Button
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "Send Email"
+        android:id = "@+id/button_send_email"
+        android:onClick="buttonSendEmail"
+        android:layout_below = "@+id/textView10"
+        android:layout_alignLeft = "@+id/button_callClub"
+        android:layout_alignStart = "@+id/button_callClub"
+        android:layout_marginTop = "32dp"/>
+</RelativeLayout>

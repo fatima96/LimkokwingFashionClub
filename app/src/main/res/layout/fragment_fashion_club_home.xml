@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background2"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/naaa">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+    <TextView
+        android:id = "@+id/txt1"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+        android:text = "Fashion club items page"
+        android:textAppearance = "@android:style/TextAppearance.Holo.Large.Inverse"
+        android:layout_marginTop = "16dp"
+        android:gravity = "center_horizontal"/>
+
+
+    <TextView
+        android:id = "@+id/txt2"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "WOMEN!!"
+        android:textAppearance = "@android:style/TextAppearance.Holo.Large.Inverse"
+        android:layout_marginTop = "32dp"
+        android:layout_below = "@+id/txt1"
+        android:layout_centerHorizontal = "true"
+        android:gravity = "center_horizontal"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:layout_width = "fill_parent"
+        android:layout_height = "fill_parent"
+        android:id = "@+id/image2"
+        android:layout_below = "@+id/txt2"
+        android:layout_marginTop = "25dp"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+        android:src="@drawable/women1"
+        android:adjustViewBounds="true"/>
+
+
+
+    <ImageView
+        android:layout_width = "fill_parent"
+        android:layout_height = "fill_parent"
+        android:id = "@+id/imageView2"
+        android:layout_below = "@+id/image2"
+        android:layout_marginTop = "25dp"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+        android:src="@drawable/women2"
+        android:adjustViewBounds="true"/>
+
+    <ImageView
+        android:layout_width = "fill_parent"
+        android:layout_height = "fill_parent"
+        android:id = "@+id/image3"
+        android:layout_below = "@+id/imageView2"
+        android:layout_marginTop = "35dp"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+        android:src="@drawable/women3"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id = "@+id/txt3"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "MEN!!"
+        android:textAppearance = "@android:style/TextAppearance.Holo.Large.Inverse"
+        android:layout_marginTop = "32dp"
+        android:layout_below = "@+id/image3"
+        android:layout_centerHorizontal = "true"
+        android:gravity = "center_horizontal"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:layout_width = "fill_parent"
+        android:layout_height = "fill_parent"
+        android:id = "@+id/image4"
+        android:layout_below = "@+id/txt3"
+        android:layout_marginTop = "25dp"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+        android:src="@drawable/men1"
+        android:adjustViewBounds="true"/>
+    <ImageView
+        android:layout_width = "fill_parent"
+        android:layout_height = "fill_parent"
+        android:id = "@+id/image5"
+        android:layout_below = "@+id/image4"
+        android:layout_marginTop = "25dp"
+        android:layout_alignParentRight = "true"
+        android:layout_alignParentEnd = "true"
+        android:src="@drawable/men2"
+        android:adjustViewBounds="true"/>
+
+
+
+            <ImageView
+                android:layout_width = "fill_parent"
+                android:layout_height = "fill_parent"
+                android:id = "@+id/image6"
+                android:layout_below = "@+id/image5"
+                android:layout_marginTop = "25dp"
+                android:layout_alignParentRight = "true"
+                android:layout_alignParentEnd = "true"
+                android:src="@drawable/newmen3"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:id = "@+id/txt5"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "ACCESSORIES!!"
+                android:textAppearance = "@android:style/TextAppearance.Holo.Large.Inverse"
+                android:layout_marginTop = "32dp"
+                android:layout_below = "@+id/image6"
+                android:layout_centerHorizontal = "true"
+                android:gravity = "center_horizontal"
+                android:textStyle="italic"
+                />
+            <ImageView
+                android:layout_width = "fill_parent"
+                android:layout_height = "fill_parent"
+                android:id = "@+id/image"
+                android:layout_below = "@+id/txt5"
+                android:layout_marginTop = "25dp"
+                android:layout_alignParentRight = "true"
+                android:layout_alignParentEnd = "true"
+                android:src="@drawable/newmen2"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width = "fill_parent"
+                android:layout_height = "fill_parent"
+                android:id = "@+id/image7"
+                android:layout_below = "@+id/image"
+                android:layout_marginTop = "25dp"
+                android:layout_alignParentRight = "true"
+                android:layout_alignParentEnd = "true"
+                android:src="@drawable/acess4"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width = "fill_parent"
+                android:layout_height = "fill_parent"
+                android:id = "@+id/image8"
+                android:layout_below = "@+id/image7"
+                android:layout_marginTop = "25dp"
+                android:layout_alignParentRight ="true"
+                android:layout_alignParentEnd = "true"
+                android:src="@drawable/acess3"
+                android:adjustViewBounds="true"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:layout_width = "900dp"
+        android:layout_height = "500dp"
+        android:id = "@+id/image9"
+        android:layout_below="@id/naaa"
+
+        android:layout_marginTop = "68dp"
+
+        android:src="@drawable/limko"
+        android:adjustViewBounds="true"/>
+</RelativeLayout>
